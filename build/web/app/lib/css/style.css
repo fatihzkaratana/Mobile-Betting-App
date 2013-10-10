@@ -1,0 +1,284 @@
+	   *{ font-family: 12px/15px Arial, Helvetica, sans-serif; color: #464339;}
+           body, .overlay{
+               background: rgb(255,255,255); /* Old browsers */
+                background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(251,251,251,1) 12%, rgba(242,242,242,1) 28%, rgba(226,224,223,1) 56%, rgba(205,201,196,1) 86%, rgba(199,194,188,1) 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(12%,rgba(251,251,251,1)), color-stop(28%,rgba(242,242,242,1)), color-stop(56%,rgba(226,224,223,1)), color-stop(86%,rgba(205,201,196,1)), color-stop(100%,rgba(199,194,188,1))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(251,251,251,1) 12%,rgba(242,242,242,1) 28%,rgba(226,224,223,1) 56%,rgba(205,201,196,1) 86%,rgba(199,194,188,1) 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(251,251,251,1) 12%,rgba(242,242,242,1) 28%,rgba(226,224,223,1) 56%,rgba(205,201,196,1) 86%,rgba(199,194,188,1) 100%); /* Opera11.10+ */
+                background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(251,251,251,1) 12%,rgba(242,242,242,1) 28%,rgba(226,224,223,1) 56%,rgba(205,201,196,1) 86%,rgba(199,194,188,1) 100%); /* IE10+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c7c2bc',GradientType=0 ); /* IE6-9 */
+                background: linear-gradient(top, rgba(255,255,255,1) 0%,rgba(251,251,251,1) 12%,rgba(242,242,242,1) 28%,rgba(226,224,223,1) 56%,rgba(205,201,196,1) 86%,rgba(199,194,188,1) 100%); /* W3C */
+           }
+            
+            #bodyView.x-fullscreen, .x-fullscreen .x-fullscreen .x-panel-body {
+	       background: transparent url(../images/320_460_bg_bg.png) no-repeat center center;
+	   }
+           #panelCategory{text-align: center;}
+           .x-form-fieldset .x-panel-body{border: none}
+           .x-tabbar-glass{
+                background: #434343; /* Old browsers */
+                background: -moz-linear-gradient(top, #434343 0%, #2e2e2e 1%, #2c2c2c 3%, #151515 48%, #0e0e0e 49%, #000000 51%, #000000 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#434343), color-stop(1%,#2e2e2e), color-stop(3%,#2c2c2c), color-stop(48%,#151515), color-stop(49%,#0e0e0e), color-stop(51%,#000000), color-stop(100%,#000000)); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, #434343 0%,#2e2e2e 1%,#2c2c2c 3%,#151515 48%,#0e0e0e 49%,#000000 51%,#000000 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, #434343 0%,#2e2e2e 1%,#2c2c2c 3%,#151515 48%,#0e0e0e 49%,#000000 51%,#000000 100%); /* Opera11.10+ */
+                background: -ms-linear-gradient(top, #434343 0%,#2e2e2e 1%,#2c2c2c 3%,#151515 48%,#0e0e0e 49%,#000000 51%,#000000 100%); /* IE10+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#434343', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+                background: linear-gradient(top, #434343 0%,#2e2e2e 1%,#2c2c2c 3%,#151515 48%,#0e0e0e 49%,#000000 51%,#000000 100%); /* W3C */
+           }
+           .x-tab img.home, .x-button img.x-icon-mask.home{-webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAbCAYAAACAyoQSAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA/ZJREFUeNqcVr1rk0EcvntzTUKSpmnahBZrkVaHVuh/4CTi6qZODnZTBxGKgiAdRHRwkBZcLLgITk5+gF8ojsXNUVswmFSTQBvTNHlz7+vze/1de0nTNs3Bk/vI3T2/73ul7/tnxf+WAUYBDaSBccADfKAPOAksA1eButi/XQSe8dgFqkAN+Eu9ws8b0X2bAb4ATw/Yp7knoibPfYbjiMM12n+XrdJNk9bYM/1hSakdAea73Gu0MwJII3kv7RJw+gAy0U5m5r2SxoA7QHwfa9jmlawgQSqtdU+sjuOcQndFSvmg/T/P87LICltLW3NHNZvNbjjs6KMDPsiEUuoyLn8MATbaSEOsTASgDHFoPweTJFLKod/AOlDiPg/8Agqckz+YsAKsGslBGAJxdZeEWn/EvR7nqAahZsGDuXJd9xwGK8AaJ2/XjbSJRCKd1j/j3pKVr2QZz/Sk6TtS3QbMZfoomcj0WJvGmA5PAMmg3LjuJLoB4G1fX98TJjmGfR+wv84mbdBWzLdorKLRaEACjGFxDIuE48AJYJLLIUVjmE3amhs78/P1ej0OzR+RYKFQKMHRTaRN3E3EAams1Wr3MJhm6Y+y1NsXAuTHfhqboCOzIlhaxmTmWCxGF1/Avk/FYnEFRAnW0LU01QoHbprDBnQ5o4L5HDAP0ux+xaBSqYhUKhVOJBJLuHOu0WhQjCRMpFPUmqbK5TL5hQh8IsIBu3qQP99jjS54zq+NZyW8b1UgCe2IIAWXLUDQGs6RWbVJF44ZqUqlkrCeMNnyGsA3g4ODAxDsBS5ZwNr1DntbNC4UCmJoaEjCMhEo0aBo5cjVJlAV55NuK8w+SyYh9QQuWc7n87dx0QzX3FonQouYNMZ237NThX3rUxl0LVJpm4sOQqhoPB4XyWRyExrPYu0VR3d1j9fEWI5IjPCaIzhwDZWouplYpjMae/B3k9Iqk8kIpMRqtVq9gf1LfLZh6gH7zSY3BcGkjOa5VBhs8qHAHMbhGDvcuxx6YmRkRORyudeIzPvw9zUm9SxtPYvYaKpZAPMFESLSCts68KFlGofH299DqDgim80K+HcRwoxizxkys1XMPWMhS0MjQJPXHAWJS9bLodt85HEp227kXwSWC/8+xH/9wDhrbEe+sFym2ZIBcfBIgPQPlyi/zUQm6jbbKwHSiPJ6Df5dxPlZJt2wvvy2WLNGUPZ2UsYDqVSokTnL4XYENjivwp1KUDqdpkLyDYF2y3q6/KmpKf+g14lIC2x3sj+9pUV+X38CZWhS6XQQ5wKNh4eHtw771aEQHF/Rf2eydZMGHBy7XhW7hcPhnj518PCrl8asJL0BRSr1jtPrt9ve7Z8AAwCkwyFRynaLbwAAAABJRU5ErkJggg==')}
+           .x-tab img.bookmarks, .x-button img.x-icon-mask.bookmarks{-webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAjCAYAAAATx8MeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAABC1JREFUeNrEWEsvK2EYnta4VNAh4rIg08TqHIs5ibAhxi/Q7ux0sLSolSUisdU9SWtlqYkf0BGWZFgdO0OEhdukFRQ153mbmaZndMb0xps8+abmm/me73kv3zs8yWSS+QkTRTGMYR1QgQVANu95dF3nMQYBrgZra0BclmXNQkjAoFjmrgDLdMECJBVfQ1GmgT+Wv8WKzFsCJoEJb40JkQkWlZatf7PMjXh/IJyODbfamfrtpMLhcAJDAEgUuU3BHv92UgMDA0xra6vm8XhC+BkqUI1GKXel196WARF4AIJUgnZ3d5nR0VFzfQ7YASIA/WbYj48PcxMLhr+rZUtGmYlCFcW43hkfHye3SS0tLdrBwYGpUOi/J9/e3nTgrNpuwjsFwvv7+3o2m6U1dBohAuEBEEk1U51CeF5eXnR6SV1d3QJ2VDWlQIDeJbAsmwSx3GJkXq+X1jKnRfF7wfqs5+npSQcZpqGhoappDyUmqGpj5EHw04T6+noiKAMT1nus+QARo11U6WgJ4X1LdIS9vr7aKalBRampqenTPZakJTPHKtgKNsf7fL7I8/MzU5BIn+aNjY2piqIwtkoZB6JcKSOKSxBSEKsU7HbTEjzPRzc2NorezCvV09OzXA2ZUqkUZRuPWHVyrzQ9PU1rOpO6v7+PIfi2yiWzubkpz83NiYiTiKZpTLHgNkyamprSVldX7dVWVTWXq93d3ZUIJBsFUEmn004qJQYHB0Pb29sMiqfZNRRRytjRA3bX7POVm20SSkoMmcan0mnHeYuLi3lCdsZmDfelUykNKKd4bjU2NgqdnZ3Bu7s7JmufxdLs7Kyj26xK0S4Cv3/90kpl9Pf0lGtvbz+7ub1lXjIZW7eNDA8nyG1uLK8UFU5BEEqWifP7Y0h/DipX7LY8KSpuIMT19fUp+/v7brNPPTw8jA8NDQXxfPD8/NypSErz8/Ou3JbPvqOjI51UCgQCpRwzZradXV9fc4+Pj7Zuwzuly8tLzU6lotlHOySgNDBtbW2uGKGe7fn9fhFkuNQXbuvt7Y2hboVKCYl8k5fJZLSbmxtX2dfc3Cxj5+LV1ZWj29D2BnHkBEuNU7bgemJkZMQVKToi1tbWlhyqdhw90zFUUuBepmxSeInmNvtoHjLO7nsx9xkOQjuo7lzavph+Taq/vz+5t7enuvxuW7m4uChGKk6EEG8RFFSR4rQcy5OiHsjl13KuzbW0JarxeaQiCXZwjorIOKdD2R0p7DzXon5l6BRPcKSIBaSiRi8WhkJEiEPHwTgcyu5J0SIOTVkhKRXxNGkoRk2/hs0kEUMCbYoUqoRQzmvl9E1YdAuZSv9JETs6OhQUXgElJVfrKiVkLQmuvlKoW6SadnJyonR1dQn0uUSup/a3WsYaGRN2e+bNzMyso5JH6Ni4RWdA+MKipZL6J8AAR7SM65TRbkIAAAAASUVORK5CYII=')}
+           .x-tab img.user, .x-button img.x-icon-mask.bookmarks{-webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAkCAYAAADo6zjiAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA5tJREFUeNq8V71SIkEQHtjVslS4xTIwMNirMj8yA61yzczUJ0CrzMXIUHwCNDaQi4wUeAIgMDDb8wWOwEBRYRUPf2Dh+htmvGXFBQ/drmqGme2Z/vqbnp7dQC6XY1IMw9Cp0dkXSp6kYwAAWq1WlDTX8kcqpAn45cFTRxeDfsuhBJD+hMUSCMSLehFo0jXPYJ/gfO0jOQB7J3B1wJxKBQKBVCwWY0tLS2xqakom8wo1UVKTci6DscvLS3Z8fMxgT44XaAjAFwZlwNje3mYyoUQy/3bZoB+VNrCn/op4lhsUgOZwrnkkc8Vla0gAwUH439vbsxxd0K69Y6oJyt+I2mw2/xvAzMyMO8vftaW91xy2TNoOBGB8fNwJwPJaKxgMOm0ZbAkUC9q2zUgzpJGhoaGAl5LNd1JTzOlwQAtm5Hg3pecpJwA5HgQS0v2RkRGrV8RkUyTbrJjT8Swej+PZunzm0vWNjY2imwG0KlAoipKs1+tboKRHEdFeXl5i3aien59no6OjqWq1istmU9YB0v1QKFQ8OjpibgY4gEajwYheGOe8ksgpmOMWFKFarWY8Pz+jmxUK0WlcPzs7yzu2i69BgbcZeHx8BL39lFEGB5KBubk57fT01KKWB4DjhmQjlrgN/g8PD/OWbLAFq2RvSgbAeIBKpAwbdPXKg473hUgksijmcOfdmHk97yqv+rBdJDudtipNY3lVTNqdnp5O9EP/xcVFWhQdRBmjKHRaQ7u7u2NeWwi6KRc0cpqkeUX4BQMSgImi4jzX3QQXCtm/ZjNRvQZ6y+Uy65U/8IOtmZiYMEA/+pirNqhDyA7Pz8+jfRDwrVyprD09PfHOn1qN2bRQ3YN6t1iWxRTaDvhVSFUsoCoKLpKdfhYIEm22cFi9v/9w9aw5wNo4BUBSur5m4VCo5+Qm0fzw8MAGKd+ui6jNAIrq7e0t81s4+yKaTDQaXfXLsWmaSVRvJK68jH76GrltZ+VlxBmg47dz304oyw8ApVIpWalU2ncBAITDYbzLpf1iYGxsjOccfPP6eHNz8+al4YsZ+HcS8IPCQiU272MaGB0AcBfMzs4m/PJOV3OcmqQTQJGOoZ8HodjBwOTkZLJQKOh+eacTsHl1dcWBAECR3ojgfMcvAORP/i0AwC5l5SG9EzIfGWAi8EwA73LZbJaXRp9zYPXk5MRU8WVLJ2CLMnNffD798PjEGvgaIP2Fu2d5edk6ODhgfwUYAIFarHByGA59AAAAAElFTkSuQmCC')}
+           .x-tab img.add, .x-button img.x-icon-mask.bookmarks{-webkit-mask-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA0FJREFUeNrMV0tPIkEQ7gF8YDA8EjwYlTlw1jEhITEc4LIeV+8m8BOWX7Au/AD24Mk9LMaLN/0HjkcuyCPrzeysCSFBEzFReSjOVg0zm3amZxZmB7KVVBi6u7q/rq76upqTZTlJJi+SKIoSqyOZHC7vAT2fApAvoPtWA1zkPxEaCLouyFGC/9V2lDNOJ9C2SdlnGf3ZUYF4qO8AHhnETFvXFlC/eUY8CdT3BqN/wy6QU4uxwl/iKaOqLfFM6MhFfdZMGwgeawrCo0I3ptNpkslkpgoEA7YCsfKJii1azoBPKkwgb29vjhIXzIcBX7AYM3kgLteQDQCIonoZZrTJ0QwGA8eA4EII4PX1ldnvdrvNgTjpEc0LZnNaecSFHrGhbdDUwsICR+vBwYGIYMzsrDbN3d/fyzY2nwoGgyLYvmNSr9erEF+n02EG6+zsbBH0iBXk3N3d3dhAeJ7nbm9vk3DmBqbFnT89PTHt5ubmFGURoMcssKwkn88rGfLy8kJYQMzmRBsts/TttoAIgkD6/T55eHgYyw7Xen5+NrTPzMzYA6Jlhl1btkds8ojCFw5xkBvm8Qz+wSMDhzwyAKLjflxdjZ01kUgk9e3wUPywvZ00qVvM7poiqCF95+fnJXsekeXTvb293XA4rK87SK1Ws7L8tb6+LrLY2BbFQ+QHgLzOW62Wgegwm4CbmHaLi4ukUCg4d+k1Gg2yvLysMakhiM3mxEsPU9+xSw9tbm5uDO2rq6uWl57VWpO4fdtmc7JqlEmVivzJyUlxa2sra1Yqmt6+pVJJdgrF2tpaG+IgtbS0xCwHWUU0/fZ1TOASDEBdcilJUgVrFqrrKJfLFROJxMhHI+neIILOxRX1yfBnQ7QxpLMI5ESgVtEebFqKXIzznKjE4/FN/QA4ukt1wq/Qn9X18fDzU/27G4vFlBiIRqPE5/OR4+NjXP273+8f66XHl8vlfbySNen1en5wsbarZLVa3afrCSA2+m2brtfrAp2q0P8Rv+G4RgcCLg1A5fXZUMNJEul2uyQUCgkQhIIuJsj19bXyvbKysgNe2KH7sV5pNpvjvX1xUj01464QhLp7Qz947N2i2lhNHh8fRw703wIMAL5MwtpvzOn2AAAAAElFTkSuQmCC')}
+            .x-tabbar-glass.x-docked-bottom .x-tab img {
+                background: -moz-linear-gradient(top, rgba(255,255,255,0.07) 0%, rgba(255,255,255,0.3) 3%, rgba(255,255,255,0.3) 24%, rgba(243,243,243,0.3) 38%, rgba(210,210,210,0.3) 65%, rgba(205,205,205,0.3) 71%, rgba(201,201,201,0.3) 76%, rgba(201,201,201,0.3) 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.07)), color-stop(3%,rgba(255,255,255,0.3)), color-stop(24%,rgba(255,255,255,0.3)), color-stop(38%,rgba(243,243,243,0.3)), color-stop(65%,rgba(210,210,210,0.3)), color-stop(71%,rgba(205,205,205,0.3)), color-stop(76%,rgba(201,201,201,0.3)), color-stop(100%,rgba(201,201,201,0.3))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, rgba(255,255,255,0.07) 0%,rgba(255,255,255,0.3) 3%,rgba(255,255,255,0.3) 24%,rgba(243,243,243,0.3) 38%,rgba(210,210,210,0.3) 65%,rgba(205,205,205,0.3) 71%,rgba(201,201,201,0.3) 76%,rgba(201,201,201,0.3) 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, rgba(255,255,255,0.07) 0%,rgba(255,255,255,0.3) 3%,rgba(255,255,255,0.3) 24%,rgba(243,243,243,0.3) 38%,rgba(210,210,210,0.3) 65%,rgba(205,205,205,0.3) 71%,rgba(201,201,201,0.3) 76%,rgba(201,201,201,0.3) 100%); /* Opera11.10+ */
+                background: -ms-linear-gradient(top, rgba(255,255,255,0.07) 0%,rgba(255,255,255,0.3) 3%,rgba(255,255,255,0.3) 24%,rgba(243,243,243,0.3) 38%,rgba(210,210,210,0.3) 65%,rgba(205,205,205,0.3) 71%,rgba(201,201,201,0.3) 76%,rgba(201,201,201,0.3) 100%); /* IE10+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#12ffffff', endColorstr='#4dc9c9c9',GradientType=0 ); /* IE6-9 */
+                background: linear-gradient(top, rgba(255,255,255,0.07) 0%,rgba(255,255,255,0.3) 3%,rgba(255,255,255,0.3) 24%,rgba(243,243,243,0.3) 38%,rgba(210,210,210,0.3) 65%,rgba(205,205,205,0.3) 71%,rgba(201,201,201,0.3) 76%,rgba(201,201,201,0.3) 100%); /* W3C */              
+            }
+            .x-tabbar-glass.x-docked-bottom .x-tab-active img {
+                background: -moz-linear-gradient(top, rgba(191,191,191,0) 0%, rgba(255,255,255,0.13) 3%, rgba(255,255,255,0.87) 6%, rgba(255,255,255,1) 9%, rgba(255,255,255,1) 21%, rgba(251,251,251,1) 26%, rgba(243,243,243,1) 35%, rgba(210,210,210,1) 62%, rgba(201,201,201,1) 74%, rgba(201,201,201,1) 97%, rgba(201,201,201,0.62) 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(191,191,191,0)), color-stop(3%,rgba(255,255,255,0.13)), color-stop(6%,rgba(255,255,255,0.87)), color-stop(9%,rgba(255,255,255,1)), color-stop(21%,rgba(255,255,255,1)), color-stop(26%,rgba(251,251,251,1)), color-stop(35%,rgba(243,243,243,1)), color-stop(62%,rgba(210,210,210,1)), color-stop(74%,rgba(201,201,201,1)), color-stop(97%,rgba(201,201,201,1)), color-stop(100%,rgba(201,201,201,0.62))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, rgba(191,191,191,0) 0%,rgba(255,255,255,0.13) 3%,rgba(255,255,255,0.87) 6%,rgba(255,255,255,1) 9%,rgba(255,255,255,1) 21%,rgba(251,251,251,1) 26%,rgba(243,243,243,1) 35%,rgba(210,210,210,1) 62%,rgba(201,201,201,1) 74%,rgba(201,201,201,1) 97%,rgba(201,201,201,0.62) 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, rgba(191,191,191,0) 0%,rgba(255,255,255,0.13) 3%,rgba(255,255,255,0.87) 6%,rgba(255,255,255,1) 9%,rgba(255,255,255,1) 21%,rgba(251,251,251,1) 26%,rgba(243,243,243,1) 35%,rgba(210,210,210,1) 62%,rgba(201,201,201,1) 74%,rgba(201,201,201,1) 97%,rgba(201,201,201,0.62) 100%); /* Opera11.10+ */
+                background: -ms-linear-gradient(top, rgba(191,191,191,0) 0%,rgba(255,255,255,0.13) 3%,rgba(255,255,255,0.87) 6%,rgba(255,255,255,1) 9%,rgba(255,255,255,1) 21%,rgba(251,251,251,1) 26%,rgba(243,243,243,1) 35%,rgba(210,210,210,1) 62%,rgba(201,201,201,1) 74%,rgba(201,201,201,1) 97%,rgba(201,201,201,0.62) 100%); /* IE10+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00bfbfbf', endColorstr='#9ec9c9c9',GradientType=0 ); /* IE6-9 */
+                background: linear-gradient(top, rgba(191,191,191,0) 0%,rgba(255,255,255,0.13) 3%,rgba(255,255,255,0.87) 6%,rgba(255,255,255,1) 9%,rgba(255,255,255,1) 21%,rgba(251,251,251,1) 26%,rgba(243,243,243,1) 35%,rgba(210,210,210,1) 62%,rgba(201,201,201,1) 74%,rgba(201,201,201,1) 97%,rgba(201,201,201,0.62) 100%); /* W3C */
+            }
+            #viewMember div.x-panel-body div.x-scroller{-webkit-box-align: initial !important; padding: 3em 1em 0 1em; }
+            #memberlistToolbar .x-toolbar-title, #memberActionButton, #memberBetsBtn, #memberAccountBtn{background: transparent url(../images/icons.png) no-repeat 0 -247px;}
+            #memberActionButton.x-button-glass, #memberBetsBtn.x-button-glass, #memberAccountBtn.x-button-glass{
+                width: 60px;
+                height: 60px;
+                float: left;
+                margin: 0 0.8em;
+                border-radius: 0;
+                -webkit-border-radius: 0;
+                border: none;
+                overflow: visible;
+            }
+            #memberActionButton.x-button-glass{background-position:  0px -243px;}
+            #memberBetsBtn.x-button-glass{background-position:  0px -168px;}
+            #memberAccountBtn.x-button-glass{background-position:  0px -90px;}
+            #memberActionButton.x-button-glass span.x-button-label,
+            #memberBetsBtn.x-button-glass span.x-button-label, 
+            #memberAccountBtn.x-button-glass span.x-button-label{
+                padding-top: 50px;
+                font-size: 10pt;
+                white-space: normal;
+                font-weight: normal;
+                overflow: visible;
+            }
+            .x-list{background: none !important;}
+            .x-toolbar-glass{
+                padding: 0; border-bottom: none; 
+                background: url(../images/shapes.png); 
+                background-position: -220px -82px; 
+                border: none !important; height: 3.3em;
+            }
+            .x-toolbar-glass{
+                background: rgb(117,35,35);
+                background: -moz-linear-gradient(top, rgba(117,35,35,1) 0%, rgba(127,14,14,1) 1%, rgba(129,14,14,1) 3%, rgba(97,7,7,1) 54%, rgba(81,3,3,1) 92%, rgba(79,3,3,1) 95%, rgba(74,2,3,1) 96%, rgba(103,0,3,1) 97%, rgba(164,6,10,1) 99%, rgba(157,83,84,1) 100%); 
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(117,35,35,1)), color-stop(1%,rgba(127,14,14,1)), color-stop(3%,rgba(129,14,14,1)), color-stop(54%,rgba(97,7,7,1)), color-stop(92%,rgba(81,3,3,1)), color-stop(95%,rgba(79,3,3,1)), color-stop(96%,rgba(74,2,3,1)), color-stop(97%,rgba(103,0,3,1)), color-stop(99%,rgba(164,6,10,1)), color-stop(100%,rgba(157,83,84,1)));
+                background: -webkit-linear-gradient(top, rgba(117,35,35,1) 0%,rgba(127,14,14,1) 1%,rgba(129,14,14,1) 3%,rgba(97,7,7,1) 54%,rgba(81,3,3,1) 92%,rgba(79,3,3,1) 95%,rgba(74,2,3,1) 96%,rgba(103,0,3,1) 97%,rgba(164,6,10,1) 99%,rgba(157,83,84,1) 100%);
+                background: -o-linear-gradient(top, rgba(117,35,35,1) 0%,rgba(127,14,14,1) 1%,rgba(129,14,14,1) 3%,rgba(97,7,7,1) 54%,rgba(81,3,3,1) 92%,rgba(79,3,3,1) 95%,rgba(74,2,3,1) 96%,rgba(103,0,3,1) 97%,rgba(164,6,10,1) 99%,rgba(157,83,84,1) 100%);
+                background: -ms-linear-gradient(top, rgba(117,35,35,1) 0%,rgba(127,14,14,1) 1%,rgba(129,14,14,1) 3%,rgba(97,7,7,1) 54%,rgba(81,3,3,1) 92%,rgba(79,3,3,1) 95%,rgba(74,2,3,1) 96%,rgba(103,0,3,1) 97%,rgba(164,6,10,1) 99%,rgba(157,83,84,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#752323', endColorstr='#9d5354',GradientType=0 );
+                background: linear-gradient(top, rgba(117,35,35,1) 0%,rgba(127,14,14,1) 1%,rgba(129,14,14,1) 3%,rgba(97,7,7,1) 54%,rgba(81,3,3,1) 92%,rgba(79,3,3,1) 95%,rgba(74,2,3,1) 96%,rgba(103,0,3,1) 97%,rgba(164,6,10,1) 99%,rgba(157,83,84,1) 100%);
+            }
+            .x-toolbar-glass .x-layout-box-inner{
+                background: transparent url(../images/icons.png) no-repeat -13px -1300px;
+            }
+            .x-toolbar-glass .x-toolbar-title{background: transparent url(../images/icons.png) no-repeat 0px -17px;z-index: 999;}
+            div#viewBetList .x-toolbar-glass.Futbol .x-toolbar-title{background-position: 0 -327px;}
+            div#viewBetList .x-toolbar-glass.Basketbol .x-toolbar-title{background-position: 0 -632px;}
+            div#viewBetList .x-toolbar-glass.Tenis .x-toolbar-title{background-position: 0 -942px;}
+            div#viewBetList .x-toolbar-glass.Beyzbol .x-toolbar-title{background-position: 0 -865px;}
+            div#viewBetList .x-toolbar-glass.Boks .x-toolbar-title{background-position: 0 -709px;}
+            div#viewBetList .x-toolbar-glass.Rugby .x-toolbar-title{background-position: 0 -1020px;}
+            div#viewBetList .x-toolbar-glass.BuzHokeyi .x-toolbar-title{background-position: 0 -556px;}
+            div#viewBetList .x-toolbar-glass.Handball .x-toolbar-title{background-position: 0 -788px;}
+            div#viewBetList .x-toolbar-glass.Snooker .x-toolbar-title{background-position: 0px -1095px;}
+            div#viewBetList .x-toolbar-glass.AmerikanFutbol .x-toolbar-title{background-position: 0px -403px;}
+            div#viewBetList .x-toolbar-glass.Volleyball .x-toolbar-title{background-position: 0px -478px;}
+            .x-toolbar-title{text-shadow: 0 0 4px #000; text-align: center; font-size: 0.9em; color: #FFF;padding: 1em 1em 1em 4em;width: 90%;height: 4em;margin: 0 auto;
+            background: transparent url(../images/shapes.png) no-repeat -220px -82px;}
+            h3.x-list-header{
+                background: -moz-linear-gradient(top, rgba(173,194,151,0.97) 0%, rgba(176,197,154,0.95) 2%, rgba(163,188,138,0.95) 15%, rgba(116,153,77,0.95) 50%, rgba(101,142,58,0.95) 52%, rgba(77,125,28,0.95) 54%, rgba(77,125,27,0.95) 56%, rgba(96,144,46,0.95) 71%, rgba(146,194,96,0.95) 98%, rgba(145,195,93,0.95) 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(173,194,151,0.97)), color-stop(2%,rgba(176,197,154,0.95)), color-stop(15%,rgba(163,188,138,0.95)), color-stop(50%,rgba(116,153,77,0.95)), color-stop(52%,rgba(101,142,58,0.95)), color-stop(54%,rgba(77,125,28,0.95)), color-stop(56%,rgba(77,125,27,0.95)), color-stop(71%,rgba(96,144,46,0.95)), color-stop(98%,rgba(146,194,96,0.95)), color-stop(100%,rgba(145,195,93,0.95))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, rgba(173,194,151,0.97) 0%,rgba(176,197,154,0.95) 2%,rgba(163,188,138,0.95) 15%,rgba(116,153,77,0.95) 50%,rgba(101,142,58,0.95) 52%,rgba(77,125,28,0.95) 54%,rgba(77,125,27,0.95) 56%,rgba(96,144,46,0.95) 71%,rgba(146,194,96,0.95) 98%,rgba(145,195,93,0.95) 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, rgba(173,194,151,0.97) 0%,rgba(176,197,154,0.95) 2%,rgba(163,188,138,0.95) 15%,rgba(116,153,77,0.95) 50%,rgba(101,142,58,0.95) 52%,rgba(77,125,28,0.95) 54%,rgba(77,125,27,0.95) 56%,rgba(96,144,46,0.95) 71%,rgba(146,194,96,0.95) 98%,rgba(145,195,93,0.95) 100%); /* Opera11.10+ */
+                background: -ms-linear-gradient(top, rgba(173,194,151,0.97) 0%,rgba(176,197,154,0.95) 2%,rgba(163,188,138,0.95) 15%,rgba(116,153,77,0.95) 50%,rgba(101,142,58,0.95) 52%,rgba(77,125,28,0.95) 54%,rgba(77,125,27,0.95) 56%,rgba(96,144,46,0.95) 71%,rgba(146,194,96,0.95) 98%,rgba(145,195,93,0.95) 100%); /* IE10+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7adc297', endColorstr='#f291c35d',GradientType=0 ); /* IE6-9 */
+                background: linear-gradient(top, rgba(173,194,151,0.97) 0%,rgba(176,197,154,0.95) 2%,rgba(163,188,138,0.95) 15%,rgba(116,153,77,0.95) 50%,rgba(101,142,58,0.95) 52%,rgba(77,125,28,0.95) 54%,rgba(77,125,27,0.95) 56%,rgba(96,144,46,0.95) 71%,rgba(146,194,96,0.95) 98%,rgba(145,195,93,0.95) 100%); /* W3C */
+                color: #FFF;text-align: center;font-size: 1em;border: none;padding: 0.5em 0;
+                 text-shadow: rgba(255,255,255,0.5) 0 5px 6px;
+            }
+            .x-list .x-list-item{padding: 0;}
+            .x-list .x-list-item button#betButton{
+                width: 100%;
+                padding: 1em 1em 1.4em 1em;
+                margin: 0;
+                border: none;
+                text-align: left;
+                background: -moz-linear-gradient(top, rgba(255,255,255,0.95) 0%, rgba(251,251,251,0.95) 22%, rgba(233,233,233,0.96) 80%, rgba(229,229,229,0.96) 98%, rgba(229,229,229,0.91) 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.95)), color-stop(22%,rgba(251,251,251,0.95)), color-stop(80%,rgba(233,233,233,0.96)), color-stop(98%,rgba(229,229,229,0.96)), color-stop(100%,rgba(229,229,229,0.91))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(251,251,251,0.95) 22%,rgba(233,233,233,0.96) 80%,rgba(229,229,229,0.96) 98%,rgba(229,229,229,0.91) 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(251,251,251,0.95) 22%,rgba(233,233,233,0.96) 80%,rgba(229,229,229,0.96) 98%,rgba(229,229,229,0.91) 100%); /* Opera11.10+ */
+                background: -ms-linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(251,251,251,0.95) 22%,rgba(233,233,233,0.96) 80%,rgba(229,229,229,0.96) 98%,rgba(229,229,229,0.91) 100%); /* IE10+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2ffffff', endColorstr='#e8e5e5e5',GradientType=0 ); /* IE6-9 */
+                background: linear-gradient(top, rgba(255,255,255,0.95) 0%,rgba(251,251,251,0.95) 22%,rgba(233,233,233,0.96) 80%,rgba(229,229,229,0.96) 98%,rgba(229,229,229,0.91) 100%); /* W3C */
+            }
+            .x-list .x-list-item button div.title span.league{
+            }
+            .x-list .x-list-item button div.title span.metadata{
+                font-weight: lighter; color: lightpink;
+            }
+            .x-list .x-list-item button div.title span.matchName{
+                background-color: rgba(82, 96, 117, 0.5);-webkit-background-clip: text;color: darkRed;text-shadow: rgba(255, 255, 255, 0.5) 0 5px 6px;text-transform: uppercase;
+            }
+            .x-form-fieldset .x-panel-body{border: none; -webkit-box-shadow: none;}
+            div#btnLogin{
+                background: -moz-linear-gradient(top, rgba(253,253,253,0) 0%, rgba(250,250,251,0.01) 14%, rgba(248,248,248,0.01) 16%, rgba(243,243,243,0.57) 20%, rgba(240,240,240,0.76) 22%, rgba(238,238,238,0.85) 24%, rgba(237,237,237,0.88) 25%, rgba(234,234,234,0.88) 27%, rgba(220,220,222,0.88) 49%, rgba(207,207,210,0.88) 51%, rgba(207,208,210,0.87) 76%, rgba(207,208,210,0.81) 78%, rgba(210,210,213,0.69) 80%, rgba(212,212,215,0.47) 82%, rgba(218,218,221,0.15) 84%, rgba(224,224,226,0) 86%, rgba(236,236,237,0) 90%, rgba(239,239,240,0) 94%, rgba(239,239,240,0) 100%); /* FF3.6+ */
+                background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,253,253,0)), color-stop(14%,rgba(250,250,251,0.01)), color-stop(16%,rgba(248,248,248,0.01)), color-stop(20%,rgba(243,243,243,0.57)), color-stop(22%,rgba(240,240,240,0.76)), color-stop(24%,rgba(238,238,238,0.85)), color-stop(25%,rgba(237,237,237,0.88)), color-stop(27%,rgba(234,234,234,0.88)), color-stop(49%,rgba(220,220,222,0.88)), color-stop(51%,rgba(207,207,210,0.88)), color-stop(76%,rgba(207,208,210,0.87)), color-stop(78%,rgba(207,208,210,0.81)), color-stop(80%,rgba(210,210,213,0.69)), color-stop(82%,rgba(212,212,215,0.47)), color-stop(84%,rgba(218,218,221,0.15)), color-stop(86%,rgba(224,224,226,0)), color-stop(90%,rgba(236,236,237,0)), color-stop(94%,rgba(239,239,240,0)), color-stop(100%,rgba(239,239,240,0))); /* Chrome,Safari4+ */
+                background: -webkit-linear-gradient(top, rgba(253,253,253,0) 0%,rgba(250,250,251,0.01) 14%,rgba(248,248,248,0.01) 16%,rgba(243,243,243,0.57) 20%,rgba(240,240,240,0.76) 22%,rgba(238,238,238,0.85) 24%,rgba(237,237,237,0.88) 25%,rgba(234,234,234,0.88) 27%,rgba(220,220,222,0.88) 49%,rgba(207,207,210,0.88) 51%,rgba(207,208,210,0.87) 76%,rgba(207,208,210,0.81) 78%,rgba(210,210,213,0.69) 80%,rgba(212,212,215,0.47) 82%,rgba(218,218,221,0.15) 84%,rgba(224,224,226,0) 86%,rgba(236,236,237,0) 90%,rgba(239,239,240,0) 94%,rgba(239,239,240,0) 100%); /* Chrome10+,Safari5.1+ */
+                background: -o-linear-gradient(top, rgba(253,253,253,0) 0%,rgba(250,250,251,0.01) 14%,rgba(248,248,248,0.01) 16%,rgba(243,243,243,0.57) 20%,rgba(240,240,240,0.76) 22%,rgba(238,238,238,0.85) 24%,rgba(237,237,237,0.88) 25%,rgba(234,234,234,0.88) 27%,rgba(220,220,222,0.88) 49%,rgba(207,207,210,0.88) 51%,rgba(207,208,210,0.87) 76%,rgba(207,208,210,0.81) 78%,rgba(210,210,213,0.69) 80%,rgba(212,212,215,0.47) 82%,rgba(218,218,221,0.15) 84%,rgba(224,224,226,0) 86%,rgba(236,236,237,0) 90%,rgba(239,239,240,0) 94%,rgba(239,239,240,0) 100%); /* Opera11.10+ */
+                background: -ms-linear-gradient(top, rgba(253,253,253,0) 0%,rgba(250,250,251,0.01) 14%,rgba(248,248,248,0.01) 16%,rgba(243,243,243,0.57) 20%,rgba(240,240,240,0.76) 22%,rgba(238,238,238,0.85) 24%,rgba(237,237,237,0.88) 25%,rgba(234,234,234,0.88) 27%,rgba(220,220,222,0.88) 49%,rgba(207,207,210,0.88) 51%,rgba(207,208,210,0.87) 76%,rgba(207,208,210,0.81) 78%,rgba(210,210,213,0.69) 80%,rgba(212,212,215,0.47) 82%,rgba(218,218,221,0.15) 84%,rgba(224,224,226,0) 86%,rgba(236,236,237,0) 90%,rgba(239,239,240,0) 94%,rgba(239,239,240,0) 100%); /* IE10+ */
+                filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00fdfdfd', endColorstr='#00efeff0',GradientType=0 ); /* IE6-9 */
+                background: linear-gradient(top, rgba(253,253,253,0) 0%,rgba(250,250,251,0.01) 14%,rgba(248,248,248,0.01) 16%,rgba(243,243,243,0.57) 20%,rgba(240,240,240,0.76) 22%,rgba(238,238,238,0.85) 24%,rgba(237,237,237,0.88) 25%,rgba(234,234,234,0.88) 27%,rgba(220,220,222,0.88) 49%,rgba(207,207,210,0.88) 51%,rgba(207,208,210,0.87) 76%,rgba(207,208,210,0.81) 78%,rgba(210,210,213,0.69) 80%,rgba(212,212,215,0.47) 82%,rgba(218,218,221,0.15) 84%,rgba(224,224,226,0) 86%,rgba(236,236,237,0) 90%,rgba(239,239,240,0) 94%,rgba(239,239,240,0) 100%); /* W3C */
+                /*IE 7 AND 8 DO NOT SUPPORT BORDER RADIUS*/
+                /*Inner elements should not cover inner shadows*/
+                /*Chrome renders inset shadows incorrectly with border-radius*/
+                /*IE 7 AND 8 DO NOT SUPPORT INSET SHADOWS*/
+                padding: 1em 0;
+                border: none;
+                min-height: 1.8em;
+            }
+            div#btnLogin span{font-family: arial;font-weight: lighter;}
+            .x-form-fieldset .x-form-fieldset-title{
+                background: transparent url(../images/shapes.png) no-repeat -220px 0;
+                height: 73px;
+                padding: 77px 20px 0 20px;
+                margin-bottom: 35px;
+                font-weight: lighter;
+                font-family: arial;
+                font-size: 0.8em;
+                letter-spacing: -1px;
+            }
+            .x-field-clear-container{display: none;}
+            div#nameField, div#passField{ 
+                margin-bottom: 0.5em;
+                border: none;
+            }
+            div#nameField input, div#passField input{ 
+                border-top: 1px solid red;
+                border-bottom: 1px solid darkgreen;
+                border-left: 1px solid red;
+                border-right: 1px solid darkgreen;
+                -webkit-border-bottom-left-radius: 0.4em;
+                border-bottom-left-radius: 0.4em;
+                -webkit-border-top-left-radius: 0.4em;
+                border-top-left-radius: 0.4em;
+                -webkit-border-bottom-right-radius: 0.4em;
+                border-bottom-right-radius: 0.4em;
+                -webkit-border-top-right-radius: 0.4em;
+                border-top-right-radius: 0.4em;
+            }
+            button#betButton{
+                border: none;background: none; margin: 0 0.5em 1em 0; vertical-align: top; 
+            }
+            button#betButton.inside{
+                margin: 0;
+            }
+            button#betButton .shape{width: 68px; height:68px; background: transparent url(../images/shapes.png) no-repeat}
+            button#betButton .title{width: 68px;}
+            button#betButton.inside .title{width: 100%;background: transparent url(../images/icons.png) no-repeat 135% -1157px;padding: 0.5em 0 0px 0;height: 2em;}            button#betButton.Futbol .shape{
+                background-position: 0 -120px;
+            }
+            button#betButton.Basketbol .shape{
+                background-position: -74px -120px;
+            }
+            button#betButton.Tenis .shape{
+                background-position: -142px -120px;
+            }
+            button#betButton.Beyzbol .shape{
+                background-position: -298px -260px;
+            }
+            button#betButton.Boks .shape{
+                background-position: -73px -190px;
+            }
+            button#betButton.Rugby .shape{
+                background-position: -146px -190px;
+            }
+            button#betButton.Buz .shape{
+                background-position: -222px -262px;
+            }
+            button#betButton.Volleyball .shape{
+                background-position: 0px -262px;
+            }
+            button#betButton.Handball .shape{
+                background-position: -73px -262px;
+            }
+            button#betButton.Snooker .shape{
+                background-position: -143px -262px;
+            }
+            button#betButton.Amerikan .shape{
+                background-position: 0px -190px;
+            }
+            #btnBack.x-button-glass, #couponBack.x-button-glass{
+                background: transparent url(../images/arrow_.png) no-repeat 0 -11px;
+                width: 16px;
+                height: 75px;
+                border: none;
+                padding: 0;
+                margin: 0;
+                -webkit-mask: none;
+                border-radius: 0;
+            }
+            div.overlay{ width: 15em !important; border-radius: 3px; -webkit-border-radius: 0.3em;}
+            div.overlay .userInfoBox{ padding: 0.5em;}
+            div.overlay .x-panel-body{border-radius: 0; -webkit-border-radius: 0; background: transparent url(../images/320_460_bg_bg.png) no-repeat center center}
+            div.userInfoBox.rounded div.data{
+                border-top: 1px solid red;
+                border-bottom: 1px solid darkgreen;
+                border-left: 1px solid red;
+                border-right: 1px solid darkgreen;
+                -webkit-border-bottom-left-radius: 0.4em;
+                border-bottom-left-radius: 0.4em;
+                -webkit-border-top-left-radius: 0.4em;
+                border-top-left-radius: 0.4em;
+                -webkit-border-bottom-right-radius: 0.4em;
+                border-bottom-right-radius: 0.4em;
+                -webkit-border-top-right-radius: 0.4em;
+                border-top-right-radius: 0.4em;
+                background: #FFF;
+                margin: 0 0 0.5em 0;
+                padding: 0.3em 0.5em;
+            }
+            div.userInfoBox div.label{
+                float: left;
+                width: 60%;
+                font-size: 11pt;
+                white-space: nowrap;
+                font-weight: bold;
+            }
+            div.userInfoBox div.info{
+                float: left;
+                font-size: 11pt;
+                white-space: nowrap;
+                font-weight: lighter;
+            }
+            div#couponToolbar{ border: none !important; background: transparent !important}
+            div.nicButton{margin: 0 auto !important; width: 89px; height: 27px; background: transparent url(../images/shapes.png) no-repeat -100px -84px !important; padding: 0.3em 0.5em !important; border: 0 !important; border-radius: 0 !important;-webkit-box-align: initial !important;}
+            div#betTitle, div#couponTitle{background: transparent url(../images/icons.png) no-repeat 135% -1243px;padding: 0.5em 0 0px 0;height: 2em;}
+            div#betTitle:active, div#couponTitle{background-position: 135% -1197px;}
+            div.nicButton span{font-size: 10pt; font-weight: lighter; color: #FFF;}
+            .x-indexbar-item {
+                text-align: left;
+                padding: 0 0 0 0.5em;
+            }
+            .x-indexbar {
+                right: -1em;
+            }

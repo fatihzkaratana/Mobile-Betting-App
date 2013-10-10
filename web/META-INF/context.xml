@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/mobile">
+  <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" initialSize="2" logAbandoned="true" maxActive="100" maxIdle="10" maxWait="10000" minIdle="5" name="jdbc/nicobet" password="HLS" removeAbandoned="true" removeAbandonedTimeout="10" timeBetweenEvictionRunsMillis="5000" type="javax.sql.DataSource" url="jdbc:oracle:thin:@192.168.1.102:1521:HLBS" username="HLBS" validationInterval="30000" validationQuery="select  1 from dual"/>
+</Context>
